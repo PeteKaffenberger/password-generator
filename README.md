@@ -25,7 +25,7 @@ Coming soon!
  
  Below you'll find a screenshot of the intended appearance of this application. Click the links in the navigation bar at the top of the page in order to jump to specific sections. 
 
-![Website Screenshot](./assets/screenshot.png)
+![Website Screenshot](assets/screenshot.png)
 
 ## Credits
 
