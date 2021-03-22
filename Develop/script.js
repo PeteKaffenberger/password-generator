@@ -29,15 +29,13 @@ var specialCharacters = ["~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", 
 //function to generate password length, prompt to gather desired number of characters
 function generatePassword () {
 
-var employeePasswordLength = prompt("How long would you like your password to be? (Password must be between 8 and 128 characters")
-
-//if statement for 
-
 var employeeInput = [];
+
+var characterCount = 0;
 
 var employeePassword = "";
 
-var characterCount = 0;
+var employeePasswordLength = prompt("How long would you like your password to be? (Password must be between 8 and 128 characters")
 
 
 if (employeePasswordLength === null) {
@@ -45,8 +43,8 @@ if (employeePasswordLength === null) {
   return employeePassword = "";
 
 }
-
 }
+
 //function to generate uppercase letters in password, confirmation prompt
 
 else {
@@ -54,6 +52,8 @@ else {
   var employeePasswordUpper = confirm("Do you want the password to have uppercase letters?");
 
   if (employeePasswordUpper) {
+
+characterCount++;
 
     employeeInput = employeeInput.concat(upperCase);
 
