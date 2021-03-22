@@ -37,6 +37,8 @@ var emplyeeInput = [];
 
 var employeePassword = "";
 
+var characterCount = 0;
+
 
 }
 
@@ -52,34 +54,79 @@ else {
 
   var employeePasswordUpper = confirm("Do you want the password to have uppercase letters?");
 
-}
+  if (employeePasswordUpper) {
 
-//funciton to generate lowercase letters in password, confirmation prompt
+    employeeInput = employeeInput.concat(upperCase);
+
+    for (var i = 0; i < 1; i++) {
+
+      var index1 = Math.floor(Math.random() * upperCase.length;
+      
+      employeePassword += upperCase[index1] + "";
+
+    }
+    
+  }
+
+//function to generate lowercase letters in password, confirmation prompt
 
 else {
 
-  var employeePasswordLower = confirm("Do you want the password to have uppercase letters?");
+  var employeePasswordLower = confirm("Do you want the password to have lowercase letters?");
 
+  if (employeePasswordLower) {
+
+    employeeInput = employeeInput.concat(lowerCase);
+
+    for (var i = 0; i < 1; i++) {
+
+      var index1 = Math.floor(Math.random() * lowerCase.length;
+      
+      employeePassword += lowerCase[index1] + "";
 }
 
+  }
 //function to generate numbers in password, confirmation prompt
 
 else {
 
-  var employeePasswordNumber = confirm("Do you want the password to have uppercase letters?");
+  var employeePasswordNumber = confirm("Do you want the password to have numbers?");
+
+  if (employeePasswordNumber) {
+
+    employeeInput = employeeInput.concat(numbers);
+
+    for (var i = 0; i < 1; i++) {
+
+      var index1 = Math.floor(Math.random() * numbers.length;
+      
+      employeePassword += numbers[index1] + "";
 
 }
 
+  }
 //function to generate special characters in password, confirmation prompt
 
 else {
 
-  var employeePasswordSpecial = confirm("Do you want the password to have uppercase letters?");
+  var employeePasswordSpecial = confirm("Do you want the password to have special characters?");
+
+  if (employeePasswordSpecial) {
+
+    employeeInput = employeeInput.concat(specialCharacters);
+
+    for (var i = 0; i < 1; i++) {
+
+      var index1 = Math.floor(Math.random() * specialCharacters.length;
+      
+      employeePassword += specialCharacters[index1] + "";
 
 }
+
+  }
 
 //loop to check that a character type was chosen and password has between 8 & 128 characters
 
 
 
-//function to shuffle password characters? function to randomize? (look up)
+//function to shuffle password characters? function to randomize?
