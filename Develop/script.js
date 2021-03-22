@@ -33,14 +33,12 @@ var employeePasswordLength = prompt("How long would you like your password to be
 
 //if statement for 
 
-var emplyeeInput = [];
+var employeeInput = [];
 
 var employeePassword = "";
 
 var characterCount = 0;
 
-
-}
 
 if (employeePasswordLength === null) {
   
@@ -48,6 +46,7 @@ if (employeePasswordLength === null) {
 
 }
 
+}
 //function to generate uppercase letters in password, confirmation prompt
 
 else {
