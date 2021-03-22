@@ -29,37 +29,57 @@ var specialCharacters = ["~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", 
 //function to generate password length, prompt to gather desired number of characters
 function generatePassword () {
 
-var userPasswordLength = prompt("How long would you like your password to be? (Password must be between 8 and 128 characters")
+var employeePasswordLength = prompt("How long would you like your password to be? (Password must be between 8 and 128 characters")
 
 //if statement for 
 
-var userInput = [];
+var emplyeeInput = [];
 
-var userPassword = "";
+var employeePassword = "";
 
-var userPassword = "";
 
 }
 
+if (employeePasswordLength === null) {
+  
+  return employeePassword = "";
 
+}
 
 //function to generate uppercase letters in password, confirmation prompt
 
+else {
 
+  var employeePasswordUpper = confirm("Do you want the password to have uppercase letters?");
+
+}
 
 //funciton to generate lowercase letters in password, confirmation prompt
 
+else {
 
+  var employeePasswordLower = confirm("Do you want the password to have uppercase letters?");
+
+}
 
 //function to generate numbers in password, confirmation prompt
 
+else {
 
+  var employeePasswordNumber = confirm("Do you want the password to have uppercase letters?");
+
+}
 
 //function to generate special characters in password, confirmation prompt
 
+else {
 
+  var employeePasswordSpecial = confirm("Do you want the password to have uppercase letters?");
+
+}
 
 //loop to check that a character type was chosen and password has between 8 & 128 characters
 
 
 
+//function to shuffle password characters? function to randomize? (look up)
